@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo do corpo da página */
+}
+
+.container {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #864bbd; /* Cor roxa para o contêiner */
+    border-radius: 10px; /* Borda arredondada para criar o efeito de quadrado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para dar destaque ao quadrado */
+}
+
+.formulario {
+    position: relative;
+    width: 100%;
+}
+
+#contactForm {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#displayData {
+    margin-top: 20px;
+}
+
+#successMessage {
+    margin-top: 20px;
+    text-align: center;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Classe para ocultar elementos */
+.hidden {
+    display: none;
+}
